@@ -11,26 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Postgraduate Professional Diploma in Systems Development (SD), Information Technology Institute - ITI, 2022
+* B.S. in Computer and Systems Engineering, Zagazig University, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* (Feb 2024 - Current): taly for Digital Payments
+  * Designed and developed highly scalable and secured financial services.
+  * Developed Backend Applications using C#, ASP .NET Web APIs, ASP .NET MVC, MS SQL Server, Oracle, Entity Framework, ASP .NET Identity, IdentityServer4, Design Patterns and Microservices.
+  * Developed WCF Services.
+  * Developed and maintained PL/SQL packages, stored procedures, and functions to optimize database performance and ensure efficient data management.
+  * Collaborated with cross-functional teams to gather requirements, design solutions, and deliver high-quality software.
+  * Familiar with SVBO, SVFE and SVIP.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* (Aug 2022 - Dec 2024): Alkan QSIT
+  * Participated in developing various products for different Industries using the latest web technologies [C#, ASP.NET, ASP.NET Web APIs, MS SQL Server, EF, CQRS Design Pattern, HTML, CSS, Bootstrap, Kendo UI, Angular JavaScript, TypeScript, RxJs, ChartJs].
+  * Extended our Ticketing System functionalities and the different integrations between it and GIS, CTI and IoT Systems[ArcGIS API for JS, ChartJs, CSS, CoffeeScript, Ruby on Rails, Flask, Spyne, WeasyPrint, Elasticsearch, Nginx, System Admin]
+  * Developed Content Management Systems using Umbraco CMS.
+  * Developed GIS Applications using ArcGIS API for JS, Experience Builder and Web AppBuilder.
+  * Extended Experience Builder and Web AppBuilder Widgets and customized others using Js, React and Jimu.
+  * Did POCs on new technologies and tools that can fit our solutions.
+  * Participated in on-site visits to gather and deliver technical requirements as well as deployment process.
+  * Developed workflow applications and integrating them with other systems.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
