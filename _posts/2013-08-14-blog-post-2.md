@@ -25,9 +25,9 @@ However, this had a limitation: according to the HTTP specification, if a reques
 
 # 3. Forever Frames (a Microsoft approach)
 In HTTP, responses don’t have to be sent in one go — they can be sent in chunks. These chunks are sent to the browser, where they get assembled and interpreted.
-Microsoft found a loophole using chunked encoding — they’d send the first chunk without specifying how many chunks were coming, tricking the client into thinking the connection was still open. Then, every time there was new data, they’d send it as another chunk (like a script) to an iframe.
+Microsoft found a loophole using chunked encoding — they’d send the first chunk without specifying how many chunks were coming, tricking the client into thinking the connection was still open. Then, every time there was new data, they’d send it as another chunk and these chunks are sent to the browser as scripts to an iframe.
 
-But this approach had several issues:
+But this approach had several issues:-
 - It required complex configurations on the server to send data as response chunks.
 - The browser’s interpreter needed to be adjusted to handle single chunks directly.
 - It only worked on Internet Explorer.
@@ -54,7 +54,6 @@ However, its downside was that it only emerged around late 2011 to early 2012, s
 # 6. SignalR
 A high-level real-time communication framework developed by Microsoft. Built on top of multiple technologies (WebSocket, SSE, Long Polling) to provide fallback support depending on what’s available.
 
-SignalR is made up of several layers:
+SignalR is made up of several layers:-
 * The first layer is the Hub, where you implement your logic functions using C#. From the classes in this layer, SignalR generates proxy classes that clients can interact with.
-
 * The second layer is the Connection Layer. It determines the most suitable method for establishing a connection between the client and server — whether it’s WebSocket, SSE, or Long Polling, in that order, depending on the specifications and capabilities of both the client and the server.
